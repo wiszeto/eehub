@@ -1,0 +1,43 @@
+.App {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans';
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#page {
+  background-color: #101010;
+  background-image: url(../images/pattern.png);
+	background-position: center center;
+
+}
+
+#projectsection {
+  padding: 30px;
+}
+#skillsection {
+  padding: 30px;
+}
+#experiencesection {
+  padding: 30px;
+}
+
+#aboutsection {
+  padding: 30px;
+}
+
+#smallpage {
+  display: none;
+}
+@media screen and (max-width: 390px) {
+  #page{
+  display: none;
+  }
+  #smallpage {
+    display: contents;
+  }
+}

@@ -5,6 +5,10 @@
   font-family: 'PT Sans';
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -12,20 +16,11 @@ html {
 #page {
   background-color: #101010;
   background-image: url(../images/pattern.png);
-	background-position: center center;
+  background-position: center center;
 
 }
 
-#projectsection {
-  padding: 30px;
-}
-#skillsection {
-  padding: 30px;
-}
-#experiencesection {
-  padding: 30px;
-}
-
+#experiencesection,
 #aboutsection {
   padding: 30px;
 }
@@ -33,10 +28,12 @@ html {
 #smallpage {
   display: none;
 }
+
 @media screen and (max-width: 390px) {
-  #page{
-  display: none;
+  #page {
+    display: none;
   }
+
   #smallpage {
     display: contents;
   }
